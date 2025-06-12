@@ -1,0 +1,21 @@
+body {
+    font-family: 'Times New Roman', 'Georgia', serif;
+    margin: 0;
+    color: #bca97b;
+}
+.header {
+    font-size: 35px;
+    border-bottom: solid 2px rgb(219, 207, 192);
+    padding: 10px;
+}
+.header__inner {
+    margin: 0 auto;
+    padding: 20px 15px;
+    max-width: 1100px;
+    text-align: center;
+}
+.title {
+    text-align: center;
+    margin-bottom: 25px;
+    font-size: 30px;
+}

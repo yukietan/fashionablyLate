@@ -1,0 +1,43 @@
+body {
+    margin: 0;
+    height: 100vh;
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    position: relative;
+    overflow: hidden;
+    color: rgb(127, 103, 23);
+}
+
+.background-text {
+    position: absolute;
+    font-size: 150px;
+    color: rgba(200, 200, 200, 0.2);
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    pointer-events: none;
+    user-select: none;
+    z-index: 0;
+}
+
+.thankyou-container {
+    text-align: center;
+    z-index: 1;
+}
+
+.thankyou-container p {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.thankyou-container button {
+    padding: 10px 30px;
+    font-size: 16px;
+    background-color: rgb(127, 103, 23);
+    color: white;
+    border: none;
+    cursor: pointer;
+}

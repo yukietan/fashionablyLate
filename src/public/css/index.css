@@ -1,0 +1,98 @@
+
+.form__group-content.name-group {
+  display: flex;
+  gap: 10px;
+  width: 65%;
+}
+.form__group-content:not(.name-group) {
+  width: 65%;
+  display: block;
+}
+.form__input--text {
+  flex: 1;
+}
+.form__input--text input {
+  width: 100%;
+  box-sizing: border-box;
+  font-size: 16px;
+}
+.form__group {
+    display: flex;
+    justify-content: flex-start;
+    margin-bottom: 5px;
+    padding: 10px;
+    align-items: center;
+}
+.form__group-title{
+    width: 35%;
+    padding: 5px;
+    box-sizing: border-box;
+}
+.form__group-content {
+    width: 65%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    box-sizing: border-box;
+}
+.form__input--text{
+    padding: 5px;
+
+}
+.contact-form {
+    margin: 0 auto;
+    padding: 10px 15px;
+    max-width: 1100px;
+}
+.form__group-content input[type="email"] {
+  width: 100%;
+  box-sizing: border-box;
+  font-size: 16px;
+  padding: 8px;
+}
+.form__group-content input[type="radio"] {
+    margin-right: 5px;
+}
+.form__group-content label {
+    margin-right: 15px;
+}
+select {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 8px;
+  font-size: 16px;
+}
+.btn-submit {
+    display: block;
+    margin:  30px auto 0;
+    background-color: rgb(127, 103, 23);
+    color: white;
+    border: none;
+    padding: 10px 30px;
+    cursor: pointer;
+    font-size: 16px;
+    max-width: 200px;
+}
+.required {
+    color: red;
+}
+.form__error {
+    width: 100%;
+    font-size: 14px;
+    line-height: 1.4;
+    color: #ff0000 !important;
+}
+.form-item-textarea {
+    height: 150px ;
+    width: 100%;
+    font-size: 22px;
+}
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+select,
+textarea {
+background-color: rgb(234, 234, 226);
+border: none;
+padding: 10px;
+}
